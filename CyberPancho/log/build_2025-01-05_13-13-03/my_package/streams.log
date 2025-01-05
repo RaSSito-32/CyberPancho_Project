@@ -1,0 +1,26 @@
+[0.570s] Invoking command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/install.log --single-version-externally-managed install_data
+[0.734s] running egg_info
+[0.745s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.754s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.777s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.777s] adding license file 'LICENSE'
+[0.778s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.778s] copying my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package
+[0.778s] running install
+[0.783s] running install_lib
+[0.795s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package
+[0.795s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py to cyberPancho_driver.cpython-312.pyc
+[0.795s]   File "/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py", line 8
+[0.795s]     def init(self, webots.node, properties):
+[0.795s]                          ^
+[0.795s] SyntaxError: invalid syntax
+[0.795s] 
+[0.795s] running install_data
+[0.795s] copying launch/robot_launch.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/share/my_package/launch
+[0.796s] error: can't copy 'worlds/my_world.wbt': doesn't exist or not a regular file
+[0.809s] Invoked command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/src/my_package' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/install.log --single-version-externally-managed install_data

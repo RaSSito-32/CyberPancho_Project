@@ -1,0 +1,2 @@
+[console_scripts]
+cyberPancho_driver = my_package.cyberPancho_driver:main
