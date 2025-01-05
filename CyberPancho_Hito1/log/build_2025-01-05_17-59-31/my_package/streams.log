@@ -1,0 +1,25 @@
+[0.478s] Invoking command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/install.log --single-version-externally-managed install_data
+[0.641s] running egg_info
+[0.652s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.652s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.653s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.653s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.653s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.676s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.676s] adding license file 'LICENSE'
+[0.677s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] copying my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package
+[0.677s] running install
+[0.681s] running install_lib
+[0.693s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package
+[0.693s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py to cyberPancho_driver.cpython-312.pyc
+[0.694s] running install_data
+[0.694s] running install_egg_info
+[0.706s] removing '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[0.706s] Copying ../../build/my_package/my_package.egg-info to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[0.707s] running install_scripts
+[0.785s] Installing cyberPancho_driver script to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/my_package
+[0.786s] writing list of installed files to '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/install.log'
+[0.801s] Invoked command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/install.log --single-version-externally-managed install_data
