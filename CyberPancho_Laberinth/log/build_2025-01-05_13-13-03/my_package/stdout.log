@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/my_package/my_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package
+running install
+running install_lib
+copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/build/my_package/build/lib/my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package
+byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py to cyberPancho_driver.cpython-312.pyc
+running install_data
+copying launch/robot_launch.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/share/my_package/launch

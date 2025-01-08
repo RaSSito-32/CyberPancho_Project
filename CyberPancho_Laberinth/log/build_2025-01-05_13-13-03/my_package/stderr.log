@@ -1,0 +1,6 @@
+  File "/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py", line 8
+    def init(self, webots.node, properties):
+                         ^
+SyntaxError: invalid syntax
+
+error: can't copy 'worlds/my_world.wbt': doesn't exist or not a regular file

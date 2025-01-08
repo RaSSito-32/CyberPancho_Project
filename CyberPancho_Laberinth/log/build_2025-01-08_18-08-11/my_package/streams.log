@@ -1,0 +1,27 @@
+[0.480s] Invoking command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/install.log --single-version-externally-managed install_data
+[0.642s] running egg_info
+[0.654s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.654s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.654s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.654s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.654s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.678s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.678s] adding license file 'LICENSE'
+[0.678s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.679s] running build
+[0.679s] running build_py
+[0.679s] copying my_package/wallFollower_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/build/lib/my_package
+[0.679s] running install
+[0.683s] running install_lib
+[0.695s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/build/lib/my_package/wallFollower_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages/my_package
+[0.695s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages/my_package/wallFollower_driver.py to wallFollower_driver.cpython-312.pyc
+[0.696s] running install_data
+[0.696s] copying package.xml -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/share/my_package
+[0.696s] running install_egg_info
+[0.708s] removing '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[0.709s] Copying ../../build/my_package/my_package.egg-info to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[0.709s] running install_scripts
+[0.788s] Installing cyberPancho_driver script to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/my_package
+[0.788s] Installing wallFollower_driver script to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/my_package
+[0.788s] writing list of installed files to '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/install.log'
+[0.804s] Invoked command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/build/my_package/install.log --single-version-externally-managed install_data

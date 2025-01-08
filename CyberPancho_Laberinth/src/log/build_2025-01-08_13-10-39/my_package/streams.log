@@ -1,0 +1,48 @@
+[0.574s] Invoking command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/install.log --single-version-externally-managed install_data
+[0.735s] running egg_info
+[0.735s] creating ../build/my_package/my_package.egg-info
+[0.747s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[0.747s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[0.747s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[0.747s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[0.747s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.770s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.770s] adding license file 'LICENSE'
+[0.771s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build
+[0.771s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib
+[0.771s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package
+[0.771s] copying my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package
+[0.779s] copying my_package/wallFollower_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package
+[0.779s] copying my_package/__init__.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package
+[0.779s] running install
+[0.784s] running install_lib
+[0.795s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package
+[0.796s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package/cyberPancho_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package
+[0.796s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package/wallFollower_driver.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package
+[0.796s] copying /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build/lib/my_package/__init__.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package
+[0.796s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package/cyberPancho_driver.py to cyberPancho_driver.cpython-312.pyc
+[0.796s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package/wallFollower_driver.py to wallFollower_driver.cpython-312.pyc
+[0.797s] byte-compiling /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+[0.797s] running install_data
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/ament_index
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/ament_index/resource_index
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/ament_index/resource_index/packages
+[0.797s] copying resource/my_package -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/ament_index/resource_index/packages
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/launch
+[0.797s] copying launch/robot_launch.py -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/launch
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/worlds
+[0.797s] copying worlds/car_cyberPancho.wbt -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/worlds
+[0.797s] creating /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/resource
+[0.797s] copying resource/my_robot.urdf -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package/resource
+[0.797s] copying package.xml -> /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/share/my_package
+[0.797s] running install_egg_info
+[0.810s] Copying ../build/my_package/my_package.egg-info to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[0.811s] running install_scripts
+[0.889s] Installing cyberPancho_driver script to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/my_package
+[0.889s] Installing wallFollower_driver script to /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/my_package
+[0.889s] writing list of installed files to '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/install.log'
+[0.905s] Invoked command in '/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/build install --record /home/rassito/Documents/ros_projects/CyberPancho_Project/CyberPancho_Laberinth/src/build/my_package/install.log --single-version-externally-managed install_data
