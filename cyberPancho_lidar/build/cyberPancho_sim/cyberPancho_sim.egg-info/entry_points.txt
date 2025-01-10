@@ -1,0 +1,2 @@
+[console_scripts]
+webots_robot_driver = cyberPancho_sim.webots_robot_driver:main

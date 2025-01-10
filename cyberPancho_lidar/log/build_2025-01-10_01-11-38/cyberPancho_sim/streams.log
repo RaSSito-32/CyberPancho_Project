@@ -1,0 +1,16 @@
+[0.750s] Invoking command in '/home/eugenio/GitHub/cyberPancho_lidar/cyberPancho_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cyberPancho_sim build --build-base /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build install --record /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log --single-version-externally-managed install_data
+[0.999s] running egg_info
+[1.020s] writing ../build/cyberPancho_sim/cyberPancho_sim.egg-info/PKG-INFO
+[1.020s] writing dependency_links to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/entry_points.txt
+[1.021s] writing requirements to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/requires.txt
+[1.021s] writing top-level names to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/top_level.txt
+[1.062s] reading manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.063s] running build_py
+[1.063s] running install
+[1.068s] running install_lib
+[1.088s] running install_data
+[1.089s] error: can't copy 'launch/robot_rviz_launch.py': doesn't exist or not a regular file
+[1.104s] Invoked command in '/home/eugenio/GitHub/cyberPancho_lidar/cyberPancho_sim' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cyberPancho_sim build --build-base /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build install --record /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log --single-version-externally-managed install_data

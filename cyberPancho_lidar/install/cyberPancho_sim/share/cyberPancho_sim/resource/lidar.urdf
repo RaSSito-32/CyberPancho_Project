@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<robot name="e-puck">
+
+    <webots>
+
+        <device reference="lidar" type="Lidar">
+            <ros>
+                <enabled>true</enabled>
+                <updateRate>10</updateRate>
+                <topicName>/scan</topicName>
+                <alwaysOn>true</alwaysOn>
+                <frameName>lidar</frameName>
+            </ros>
+        </device>
+
+        <plugin type="cyberPancho_sim.webots_robot_driver.MyRobotDriver"/>
+        
+    </webots>
+
+     <!-- Colors -->
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+    </material>
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+
+    <!-- Robot body -->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.037" length="0.085"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.037" length="0.085"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="base_link_to_lidar" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    </joint>
+
+    <link name="lidar">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.005" length="0.012"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.005" length="0.012"/>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>

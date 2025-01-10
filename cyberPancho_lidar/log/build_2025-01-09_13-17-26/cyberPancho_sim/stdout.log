@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/cyberPancho_sim/cyberPancho_sim.egg-info
+writing ../build/cyberPancho_sim/cyberPancho_sim.egg-info/PKG-INFO
+writing dependency_links to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/dependency_links.txt
+writing entry points to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/entry_points.txt
+writing requirements to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/requires.txt
+writing top-level names to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/top_level.txt
+writing manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+reading manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+writing manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build
+creating /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib
+creating /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib/cyberPancho_sim
+copying cyberPancho_sim/webots_robot_driver.py -> /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib/cyberPancho_sim
+copying cyberPancho_sim/__init__.py -> /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib/cyberPancho_sim
+running install
+running install_lib
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim
+copying /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib/cyberPancho_sim/webots_robot_driver.py -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim
+copying /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build/lib/cyberPancho_sim/__init__.py -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim
+byte-compiling /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim/webots_robot_driver.py to webots_robot_driver.cpython-312.pyc
+byte-compiling /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/ament_index
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/ament_index/resource_index
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/ament_index/resource_index/packages
+copying resource/cyberPancho_sim -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/ament_index/resource_index/packages
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/launch
+copying launch/robot_launch.py -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/launch
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/worlds
+copying worlds/cyberPancho_World.wbt -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/worlds
+creating /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/resource
+copying resource/robot.urdf -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim/resource
+copying package.xml -> /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/share/cyberPancho_sim
+running install_egg_info
+Copying ../build/cyberPancho_sim/cyberPancho_sim.egg-info to /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim-0.0.0-py3.12.egg-info
+running install_scripts
+Installing webots_robot_driver script to /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/cyberPancho_sim
+writing list of installed files to '/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log'

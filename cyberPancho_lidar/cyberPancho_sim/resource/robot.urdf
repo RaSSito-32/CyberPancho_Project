@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<robot name="e-puck">
+
+    <webots>
+        <plugin type="cyberPancho_sim.webots_robot_driver.MyRobotDriver"/>
+    </webots>
+
+</robot>

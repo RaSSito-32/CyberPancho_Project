@@ -1,0 +1,21 @@
+[0.784s] Invoking command in '/home/eugenio/GitHub/cyberPancho_lidar/cyberPancho_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cyberPancho_sim build --build-base /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build install --record /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.071s] writing ../build/cyberPancho_sim/cyberPancho_sim.egg-info/PKG-INFO
+[1.071s] writing dependency_links to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/dependency_links.txt
+[1.071s] writing entry points to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/entry_points.txt
+[1.072s] writing requirements to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/requires.txt
+[1.072s] writing top-level names to ../build/cyberPancho_sim/cyberPancho_sim.egg-info/top_level.txt
+[1.115s] reading manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+[1.116s] writing manifest file '../build/cyberPancho_sim/cyberPancho_sim.egg-info/SOURCES.txt'
+[1.116s] running build
+[1.116s] running build_py
+[1.116s] running install
+[1.122s] running install_lib
+[1.144s] running install_data
+[1.144s] running install_egg_info
+[1.167s] removing '/home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim-0.0.0-py3.12.egg-info' (and everything under it)
+[1.167s] Copying ../build/cyberPancho_sim/cyberPancho_sim.egg-info to /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages/cyberPancho_sim-0.0.0-py3.12.egg-info
+[1.168s] running install_scripts
+[1.303s] Installing webots_robot_driver script to /home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/cyberPancho_sim
+[1.304s] writing list of installed files to '/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log'
+[1.327s] Invoked command in '/home/eugenio/GitHub/cyberPancho_lidar/cyberPancho_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugenio/GitHub/cyberPancho_lidar/install/cyberPancho_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cyberPancho_sim build --build-base /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/build install --record /home/eugenio/GitHub/cyberPancho_lidar/build/cyberPancho_sim/install.log --single-version-externally-managed install_data
